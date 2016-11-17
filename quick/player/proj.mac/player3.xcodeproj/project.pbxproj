@@ -89,6 +89,15 @@
 		9FD01B2919F8C6A3005E0C49 /* PlayerMessageBoxServiceMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FD01B2019F8C6A3005E0C49 /* PlayerMessageBoxServiceMac.mm */; };
 		9FD01B2A19F8C6A3005E0C49 /* PlayerTaskServiceMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FD01B2219F8C6A3005E0C49 /* PlayerTaskServiceMac.mm */; };
 		9FD01B2D19F8C6BA005E0C49 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FD01B2C19F8C6BA005E0C49 /* AppController.mm */; };
+		AC7271841DDDF02C0090A18B /* lua_SortNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC72716E1DDDF02C0090A18B /* lua_SortNode.cpp */; };
+		AC7271851DDDF02C0090A18B /* lua_zcAnim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC7271701DDDF02C0090A18B /* lua_zcAnim.cpp */; };
+		AC7271861DDDF02C0090A18B /* newLuaLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC7271721DDDF02C0090A18B /* newLuaLib.cpp */; };
+		AC7271881DDDF02C0090A18B /* SortNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC7271771DDDF02C0090A18B /* SortNode.cpp */; };
+		AC7271891DDDF02C0090A18B /* swfType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC7271791DDDF02C0090A18B /* swfType.cpp */; };
+		AC72718A1DDDF02C0090A18B /* zcAnim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC72717B1DDDF02C0090A18B /* zcAnim.cpp */; };
+		AC72718B1DDDF02C0090A18B /* zcAnimNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC72717D1DDDF02C0090A18B /* zcAnimNode.cpp */; };
+		AC72718C1DDDF02C0090A18B /* zcAnimSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC72717F1DDDF02C0090A18B /* zcAnimSprite.cpp */; };
+		AC72718D1DDDF02C0090A18B /* zcSuperCatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC7271811DDDF02C0090A18B /* zcSuperCatch.cpp */; };
 		C033B51D191B337200D06937 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C033B51A191B337200D06937 /* VisibleRect.cpp */; };
 		C07828F818B4D72E00BD2287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07828F418B4D72E00BD2287 /* main.m */; };
 		F405C6C919ED14AA005AD31C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F405C6CB19ED14AA005AD31C /* MainMenu.xib */; };
@@ -360,6 +369,24 @@
 		9FD01B2219F8C6A3005E0C49 /* PlayerTaskServiceMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlayerTaskServiceMac.mm; sourceTree = "<group>"; };
 		9FD01B2B19F8C6BA005E0C49 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		9FD01B2C19F8C6BA005E0C49 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		AC72716E1DDDF02C0090A18B /* lua_SortNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_SortNode.cpp; sourceTree = "<group>"; };
+		AC72716F1DDDF02C0090A18B /* lua_SortNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_SortNode.h; sourceTree = "<group>"; };
+		AC7271701DDDF02C0090A18B /* lua_zcAnim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_zcAnim.cpp; sourceTree = "<group>"; };
+		AC7271711DDDF02C0090A18B /* lua_zcAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_zcAnim.h; sourceTree = "<group>"; };
+		AC7271721DDDF02C0090A18B /* newLuaLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = newLuaLib.cpp; sourceTree = "<group>"; };
+		AC7271731DDDF02C0090A18B /* newLuaLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newLuaLib.h; sourceTree = "<group>"; };
+		AC7271771DDDF02C0090A18B /* SortNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortNode.cpp; sourceTree = "<group>"; };
+		AC7271781DDDF02C0090A18B /* SortNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortNode.h; sourceTree = "<group>"; };
+		AC7271791DDDF02C0090A18B /* swfType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = swfType.cpp; sourceTree = "<group>"; };
+		AC72717A1DDDF02C0090A18B /* swfType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swfType.h; sourceTree = "<group>"; };
+		AC72717B1DDDF02C0090A18B /* zcAnim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcAnim.cpp; sourceTree = "<group>"; };
+		AC72717C1DDDF02C0090A18B /* zcAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zcAnim.h; sourceTree = "<group>"; };
+		AC72717D1DDDF02C0090A18B /* zcAnimNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcAnimNode.cpp; sourceTree = "<group>"; };
+		AC72717E1DDDF02C0090A18B /* zcAnimNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zcAnimNode.h; sourceTree = "<group>"; };
+		AC72717F1DDDF02C0090A18B /* zcAnimSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcAnimSprite.cpp; sourceTree = "<group>"; };
+		AC7271801DDDF02C0090A18B /* zcAnimSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zcAnimSprite.h; sourceTree = "<group>"; };
+		AC7271811DDDF02C0090A18B /* zcSuperCatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zcSuperCatch.cpp; sourceTree = "<group>"; };
+		AC7271821DDDF02C0090A18B /* zcSuperCatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zcSuperCatch.h; sourceTree = "<group>"; };
 		C033B51A191B337200D06937 /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VisibleRect.cpp; path = ../Classes/VisibleRect.cpp; sourceTree = "<group>"; };
 		C033B51B191B337200D06937 /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisibleRect.h; path = ../Classes/VisibleRect.h; sourceTree = "<group>"; };
 		C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_lua_bindings.xcodeproj; path = "../../../cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj"; sourceTree = "<group>"; };
@@ -838,6 +865,48 @@
 			name = player;
 			sourceTree = "<group>";
 		};
+		AC72716B1DDDF02B0090A18B /* kvlib */ = {
+			isa = PBXGroup;
+			children = (
+				AC72716D1DDDF02C0090A18B /* newLuaLib */,
+				AC7271741DDDF02C0090A18B /* zcAnim */,
+			);
+			name = kvlib;
+			path = ../../../kvlib;
+			sourceTree = "<group>";
+		};
+		AC72716D1DDDF02C0090A18B /* newLuaLib */ = {
+			isa = PBXGroup;
+			children = (
+				AC72716E1DDDF02C0090A18B /* lua_SortNode.cpp */,
+				AC72716F1DDDF02C0090A18B /* lua_SortNode.h */,
+				AC7271701DDDF02C0090A18B /* lua_zcAnim.cpp */,
+				AC7271711DDDF02C0090A18B /* lua_zcAnim.h */,
+				AC7271721DDDF02C0090A18B /* newLuaLib.cpp */,
+				AC7271731DDDF02C0090A18B /* newLuaLib.h */,
+			);
+			path = newLuaLib;
+			sourceTree = "<group>";
+		};
+		AC7271741DDDF02C0090A18B /* zcAnim */ = {
+			isa = PBXGroup;
+			children = (
+				AC7271771DDDF02C0090A18B /* SortNode.cpp */,
+				AC7271781DDDF02C0090A18B /* SortNode.h */,
+				AC7271791DDDF02C0090A18B /* swfType.cpp */,
+				AC72717A1DDDF02C0090A18B /* swfType.h */,
+				AC72717B1DDDF02C0090A18B /* zcAnim.cpp */,
+				AC72717C1DDDF02C0090A18B /* zcAnim.h */,
+				AC72717D1DDDF02C0090A18B /* zcAnimNode.cpp */,
+				AC72717E1DDDF02C0090A18B /* zcAnimNode.h */,
+				AC72717F1DDDF02C0090A18B /* zcAnimSprite.cpp */,
+				AC7271801DDDF02C0090A18B /* zcAnimSprite.h */,
+				AC7271811DDDF02C0090A18B /* zcSuperCatch.cpp */,
+				AC7271821DDDF02C0090A18B /* zcSuperCatch.h */,
+			);
+			path = zcAnim;
+			sourceTree = "<group>";
+		};
 		C03781AF18BF654500FE4F13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -850,6 +919,7 @@
 		F293B3BD15EB7BE500256477 = {
 			isa = PBXGroup;
 			children = (
+				AC72716B1DDDF02B0090A18B /* kvlib */,
 				C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */,
 				15A8A4031834BDA200142BE0 /* cocos2d_libs.xcodeproj */,
 				5023817117EBBE3400990C9B /* mac */,
@@ -1039,11 +1109,13 @@
 				9F7289901A24957700EE0234 /* lsqlite3.c in Sources */,
 				9F7289421A24957700EE0234 /* ccFilterShaders.cpp in Sources */,
 				9F72898E1A24957700EE0234 /* lfs.c in Sources */,
+				AC7271861DDDF02C0090A18B /* newLuaLib.cpp in Sources */,
 				9F72893D1A24957700EE0234 /* CCSaturationFilter.cpp in Sources */,
 				49C655D31A36C71400603AF5 /* lua_cocos2dx_extension_nanovg_manual.cpp in Sources */,
 				9FD0193419F8C4D4005E0C49 /* PlayerTaskServiceProtocol.cpp in Sources */,
 				9F72892B1A24957700EE0234 /* HelperFunc.cpp in Sources */,
 				9FD01B2919F8C6A3005E0C49 /* PlayerMessageBoxServiceMac.mm in Sources */,
+				AC7271851DDDF02C0090A18B /* lua_zcAnim.cpp in Sources */,
 				9FD01B2D19F8C6BA005E0C49 /* AppController.mm in Sources */,
 				9F7289351A24957700EE0234 /* CCExposureFilter.cpp in Sources */,
 				9F7289341A24957700EE0234 /* CCDropShadowFilter.cpp in Sources */,
@@ -1055,6 +1127,7 @@
 				9FD0192E19F8C4D4005E0C49 /* PlayerLuaCore.cpp in Sources */,
 				C033B51D191B337200D06937 /* VisibleRect.cpp in Sources */,
 				9F7289611A24957700EE0234 /* cocos2dx_extra_luabinding.cpp in Sources */,
+				AC72718D1DDDF02C0090A18B /* zcSuperCatch.cpp in Sources */,
 				9F72897A1A24957700EE0234 /* CCCryptoMac.mm in Sources */,
 				9F7289361A24957700EE0234 /* CCFilter.cpp in Sources */,
 				9F72898B1A24957700EE0234 /* strbuf.c in Sources */,
@@ -1076,10 +1149,13 @@
 				9F7289631A24957700EE0234 /* HelperFunc_luabinding.cpp in Sources */,
 				9F72892C1A24957700EE0234 /* libbase64.c in Sources */,
 				9FD01B1219F8C69C005E0C49 /* ConsoleWindowController.m in Sources */,
+				AC7271881DDDF02C0090A18B /* SortNode.cpp in Sources */,
 				9F7289661A24957700EE0234 /* CCHTTPRequest.cpp in Sources */,
 				9F72892D1A24957700EE0234 /* CCCrypto.cpp in Sources */,
+				AC72718C1DDDF02C0090A18B /* zcAnimSprite.cpp in Sources */,
 				9FD01B2A19F8C6A3005E0C49 /* PlayerTaskServiceMac.mm in Sources */,
 				9F7289321A24957700EE0234 /* CCContrastFilter.cpp in Sources */,
+				AC7271841DDDF02C0090A18B /* lua_SortNode.cpp in Sources */,
 				9F7289941A24957700EE0234 /* ProjectConfig.cpp in Sources */,
 				49C655C41A35403D00603AF5 /* NVGDrawNode.cpp in Sources */,
 				9F7289931A24957700EE0234 /* lua_zlib.c in Sources */,
@@ -1089,11 +1165,14 @@
 				9FD01B2719F8C6A3005E0C49 /* PlayerMac.mm in Sources */,
 				9F7289401A24957700EE0234 /* CCTestFilter.cpp in Sources */,
 				9F7289591A24957700EE0234 /* FilterShaders.cpp in Sources */,
+				AC72718B1DDDF02C0090A18B /* zcAnimNode.cpp in Sources */,
 				9F7289671A24957700EE0234 /* CCNetwork.cpp in Sources */,
+				AC72718A1DDDF02C0090A18B /* zcAnim.cpp in Sources */,
 				9F7289331A24957700EE0234 /* CCCustomFilter.cpp in Sources */,
 				9FD01B2619F8C6A3005E0C49 /* PlayerFileDialogServiceMac.mm in Sources */,
 				9F7289891A24957700EE0234 /* fpconv.c in Sources */,
 				9F72898F1A24957700EE0234 /* lpack.c in Sources */,
+				AC7271891DDDF02C0090A18B /* swfType.cpp in Sources */,
 				4940478A1A31C0EF004CECA6 /* NVGNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
